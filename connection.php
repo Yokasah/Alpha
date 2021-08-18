@@ -7,7 +7,7 @@ $username = "example";
 $password = "1234";
 
 //The username and password in this case are examples,you have to put the user from your own PHPMyAdmin and use it 
-//in the rest of the project
+//in the rest of the project!!
 
 try{
     $conn = new PDO("mysql:host=$servername;dbname=db_alphasphere",$username,$password);
